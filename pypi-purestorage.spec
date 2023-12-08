@@ -7,7 +7,7 @@
 #
 Name     : pypi-purestorage
 Version  : 1.19.0
-Release  : 12
+Release  : 13
 URL      : https://github.com/purestorage/rest-client/archive/1.19.0.tar.gz
 Source0  : https://github.com/purestorage/rest-client/archive/1.19.0.tar.gz
 Summary  : No detailed summary available
@@ -46,6 +46,7 @@ python components for the pypi-purestorage package.
 Summary: python3 components for the pypi-purestorage package.
 Group: Default
 Requires: python3-core
+Provides: pypi(purestorage)
 Requires: pypi(requests)
 
 %description python3
